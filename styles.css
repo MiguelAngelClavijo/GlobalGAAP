@@ -12,6 +12,9 @@
   width: 100vw;
   height: 100px;
   padding: 40px 100px;
+  position: fixed;
+  top: 0;
+  transition: 1s;
 }
 
 .links-container > ul {
@@ -31,4 +34,20 @@
   color: white;
   font-weight: bold;
   background-color: #e68a1f;
+}
+.content {
+  width: 100vw;
+  height: 200vh;
+  background-color: gainsboro;
+}
+
+.scrolled {
+  background-color: white;
+}
+.scrolled .image-container {
+  color: #2c4b78;
+}
+.scrolled li {
+  color: #2c4b78;
+  transition: 1s;
 }
