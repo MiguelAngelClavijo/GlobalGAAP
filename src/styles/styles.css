@@ -1,0 +1,68 @@
+html{
+  background-color: #313131;
+}
+
+#navbar-container {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: background-color 0.5s ease;
+}
+
+#navbar-logo-container img {
+  padding-left: 60px ;
+  height: 40px;
+}
+
+#navbar-list {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: white;
+  transition: color 0.5s ease;
+  gap: 40px;
+}
+
+#navbar-list li {
+  margin: 0 10px;
+}
+
+#navbar-button {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #E68A1F;
+  border: none;
+  width: 170px;
+  height: 56px;
+}
+
+#navbar-button-container{
+  padding-right: 60px;
+}
+
+#navbar-container.navbar-scroll{
+  background-color: #fff;
+} 
+
+#navbar-list.list-scroll{
+  color: #2C4B78;
+} 
+
+#scroll-container{
+  height: 5000px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
