@@ -1,7 +1,4 @@
-html{
-  background-color: #313131;
-}
-
+/* Navbar Styles */
 #navbar-container {
   position: fixed;
   display: flex;
@@ -13,15 +10,16 @@ html{
   left: 0;
   width: 100%;
   transition: background-color 0.5s ease;
+  z-index: 1;
 }
 
 #navbar-logo-container img {
-  padding-left: 60px ;
+  padding-left: 60px;
   height: 40px;
 }
 
 #navbar-list {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   list-style: none;
   display: flex;
   margin: 0;
@@ -36,33 +34,82 @@ html{
 }
 
 #navbar-button {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   color: white;
   font-weight: bold;
   padding: 10px 20px;
   cursor: pointer;
-  background-color: #E68A1F;
+  background-color: #e68a1f;
   border: none;
   width: 170px;
   height: 56px;
 }
 
-#navbar-button-container{
+#navbar-button-container {
   padding-right: 60px;
 }
 
-#navbar-container.navbar-scroll{
+#navbar-container.navbar-scroll {
   background-color: #fff;
-} 
+}
 
-#navbar-list.list-scroll{
-  color: #2C4B78;
-} 
+#navbar-list.list-scroll {
+  color: #2c4b78;
+}
 
-#scroll-container{
-  height: 5000px;
+/* Hero Styles */
+#hero-container {
+  background-image: url("/src/assets/img/Bogota-cover.png");
+  height: 848px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+#titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  gap: 30px;
+}
+
+#title-one {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+#title-two {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  margin: 0;
+  text-align: center;
+}
+
+#title-three {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Miembros orgullosos Styles */
+#slide-miembros-orgullosos {
+  height: 1200px;
 }
