@@ -1,3 +1,47 @@
+/* Global Styles */
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  color: #2c4b78;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h2 {
+  color: #e68a1f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h3 {
+  color: #313131;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+#GlobalGAAP-button {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #e68a1f;
+  border: none;
+  width: 170px;
+  height: 56px;
+}
+
 /* Navbar Styles */
 #navbar-container {
   position: fixed;
@@ -33,18 +77,6 @@
   margin: 0 10px;
 }
 
-#navbar-button {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: white;
-  font-weight: bold;
-  padding: 10px 20px;
-  cursor: pointer;
-  background-color: #e68a1f;
-  border: none;
-  width: 170px;
-  height: 56px;
-}
-
 #navbar-button-container {
   padding-right: 60px;
 }
@@ -64,9 +96,10 @@
   width: 100%;
   background-size: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 100px;
 }
 
 ::-webkit-scrollbar {
@@ -111,5 +144,35 @@
 
 /* Miembros orgullosos Styles */
 #slide-miembros-orgullosos {
-  height: 1200px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#icons-company {
+  height: 120px;
+}
+
+/* Miembros orgullosos Styles */
+#our-story-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 1240px;
+  gap: 40px;
+  margin: auto;
+}
+
+#our-story-video {
+  width: 40vw;
+}
+
+#our-story-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
 }
