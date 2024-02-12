@@ -29,6 +29,14 @@ h3 {
   margin: 0;
 }
 
+a {
+  color: #333333;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
 #GlobalGAAP-button {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: white;
@@ -142,7 +150,7 @@ h3 {
   text-align: center;
 }
 
-/* Miembros orgullosos Styles */
+/* Members Styles */
 #slide-miembros-orgullosos {
   height: 220px;
   display: flex;
@@ -155,7 +163,7 @@ h3 {
   height: 120px;
 }
 
-/* Miembros orgullosos Styles */
+/* Our Story Styles */
 #our-story-container {
   display: flex;
   align-items: center;
@@ -175,4 +183,93 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+}
+
+/* Our Team Styles*/
+#team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 820px;
+  justify-content: center;
+}
+
+#teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  gap: 80px;
+}
+
+#team-a,
+#team-b,
+#team-c,
+#team-d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 290px;
+  height: 640px;
+  margin: 40px 0 0 0;
+}
+
+#team-img-a {
+  background-image: url("/src/assets/img/Miguel\ Alejandro\ Romero\ -\ Socio\ de\ Outsuorcing\ BPO.png");
+  width: 100%;
+  height: 315px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#team-img-b {
+  background-image: url("/src/assets/img/Beiky\ Cardozo\ -\ Socia\ de\ auditoría.png");
+  width: 100%;
+  height: 315px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#team-img-c {
+  background-image: url("/src/assets/img/Andrés\ Latorre\ -\ Director\ de\ auditoría.png");
+  width: 100%;
+  height: 315px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#team-img-d {
+  background-image: url("/src/assets/img/Cristian\ Palacios\ -\ Líder\ de\ BPO.png");
+  width: 100%;
+  height: 315px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#team-name {
+  color: #333333;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+
+#team-position {
+  color: #787f88;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+#team-description li {
+  color: #3e4856;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px;
 }
